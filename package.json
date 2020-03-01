@@ -1,0 +1,26 @@
+{
+	"name": "eslint-config-josa-typescript",
+	"version": "0.0.0",
+	"description": "ESLint shareable config for TypeScript",
+	"license": "MIT",
+	"repository": "josa42/eslint-config-josa-typescript",
+	"author": "Josa Gesell <josa@gesell.me>",
+	"engines": {
+		"node": ">=8"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"typescript",
+		"eslintconfig"
+	],
+	"dependencies": {
+		"eslint-config-josa": "^0.1.0"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": ">=2.19.0",
+		"eslint": ">=6.6.0",
+		"typescript": ">=3.5.3"
+	}
+}
